@@ -1,5 +1,6 @@
 import React from 'react';
 import Business from './business.js';
+import '../styles/styles.css';
 
 function BusinessList(props) {
 
@@ -17,8 +18,8 @@ function BusinessList(props) {
     });
 
     return (
-        <div>
-            <ul>
+        <div className="grid-container">
+            <div className="grid-item">
                 {filteredData.map((business, index) => 
                     <Business
                         key={index}
@@ -33,7 +34,7 @@ function BusinessList(props) {
                         reviewCount={business.reviewCount}
                     />
                 )}
-            </ul>
+            </div>
         </div>
     );
 }
