@@ -1,5 +1,6 @@
 /* src/styles/styles.css */
 
+/* tailwind has overwritten this section */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));

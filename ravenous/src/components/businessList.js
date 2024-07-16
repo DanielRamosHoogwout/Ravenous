@@ -1,6 +1,6 @@
 import React from 'react';
 import Business from './business.js';
-import '../styles/styles.css';
+//import '../styles/styles.css';
 
 function BusinessList(props) {
 
@@ -18,8 +18,8 @@ function BusinessList(props) {
     });
 
     return (
-        <div className="grid-container">
-            <div className="grid-item">
+        <div className="container mx-4 flex justify-center items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-content-center">
                 {filteredData.map((business, index) => 
                     <Business
                         key={index}

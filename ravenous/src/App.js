@@ -2,6 +2,7 @@ import './App.css';
 import React, { useState } from 'react';
 import BusinessList from "./components/businessList.js";
 import SearchBar from './components/searchBar.js';
+import NavbarSimple from './components/navbarSimple.js';
 
 
 function App() {
@@ -46,7 +47,8 @@ function App() {
   const [input, setInput] = useState('');
 
   return (
-    <div className="App">
+    <div className="bg-red-100">
+      <NavbarSimple />
       <SearchBar onSearch={setInput} /> {/* Pasa el callback para actualizar el estado */}
       <BusinessList input={input} data={data}/>
     </div>
