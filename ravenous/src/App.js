@@ -9,8 +9,8 @@ function App() {
 
   const data = [
     {
-        imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
-        name: 'MarginOtto Pizzeria',
+        imageSrc: 'https://static.vecteezy.com/system/resources/previews/022/825/544/original/orange-fruit-orange-on-transparent-background-free-png.png',
+        name: 'Orange',
         address: '1010 Paddington Way',
         city: 'Flavortown',
         state: 'NY',
@@ -20,8 +20,8 @@ function App() {
         reviewCount: 90
     },
     {
-        imageSrc: 'https://content.codecademy.com/programs/react/ravenous/pizza.jpg',
-        name: 'MarginOtto Ristoranti',
+        imageSrc: 'https://lh3.googleusercontent.com/proxy/bGAydTpQaCu_vI_mJ5RDSRrW8NdsPmTdkyS1-PvhllYDVF-cLLolhflLL7PuLjL57E1cySrGoMc05oJJpgUYG8Zb1rJftxt9-L6AqN4rifbK',
+        name: 'Avocado',
         address: '1010 Fake Street',
         city: 'Saint Martin',
         state: 'CA',
@@ -47,7 +47,7 @@ function App() {
   const [input, setInput] = useState('');
 
   return (
-    <div className="bg-red-100">
+    <div className="">
       <NavbarSimple />
       <SearchBar onSearch={setInput} /> {/* Pasa el callback para actualizar el estado */}
       <BusinessList input={input} data={data}/>

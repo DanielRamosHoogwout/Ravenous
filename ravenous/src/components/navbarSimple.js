@@ -17,7 +17,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Pages
+          Fruits
         </a>
       </Typography>
       <Typography
@@ -37,7 +37,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Blocks
+          Blog
         </a>
       </Typography>
       <Typography
@@ -47,7 +47,7 @@ function NavList() {
         className="p-1 font-medium"
       >
         <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Docs
+          About Us
         </a>
       </Typography>
     </ul>
@@ -77,7 +77,7 @@ function NavbarSimple() {
           variant="h6"
           className="mr-4 cursor-pointer py-1.5"
         >
-          Material Tailwind
+          Fruty.io
         </Typography>
         <div className="hidden lg:block">
           <NavList />

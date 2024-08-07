@@ -18,8 +18,8 @@ function BusinessList(props) {
     });
 
     return (
-        <div className="container mx-4 flex justify-center items-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-content-center">
+        <div className="flex justify-center items-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {filteredData.map((business, index) => 
                     <Business
                         key={index}
