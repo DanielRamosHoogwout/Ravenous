@@ -14,7 +14,7 @@ function SearchBar({ onSearch }) {
             <input 
                 className = "w-full outline-none bg-white text-gray-600 text-xl px-4 py-3"
                 type="text" 
-                placeholder="Buscar negocios..."
+                placeholder="Search a fruit..."
                 value={input}
                 onChange={handleInputChange}
             />
